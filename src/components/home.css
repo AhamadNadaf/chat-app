@@ -1,0 +1,70 @@
+.chat-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    background-color: #d7e1e4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .message-thread {
+    margin-bottom: 10px;
+    height: 400px;
+    overflow-x: hidden;
+  }
+  
+  .message {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .avatar{
+    width: 30px;
+    height:30px;
+  }
+
+  .message-text-box {  
+    max-width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+
+  
+  .like-button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 70px;
+    cursor: pointer;
+  }
+  
+  .like-count {
+    margin-left: 10px;
+    color: #999;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
